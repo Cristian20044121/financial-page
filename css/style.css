@@ -1,0 +1,166 @@
+:root{
+    --color-hover-buttons: #df1f1f;
+    --color-title: #ece9e9;
+}
+
+header{
+    height: 100px;
+}
+nav > a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-weight: 500;
+}
+nav >a:hover{
+    color: var(--color-hover-buttons);
+    transition: 0.3s;
+}
+
+/* first section  */
+
+.introduction{
+    height: 1150px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('../img/background-section-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.info{
+    float: right;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
+}
+.info > h1{
+    color: var(--color-title);
+    font-size: 7rem;
+    opacity: 99;
+
+
+}
+.buttons > button{
+    width: 30%;
+}
+.buttons > button > i{
+    font-size: 20px;
+}
+.buttons > button:nth-child(1){
+    color: white;
+    border-color: #df1f1f;
+    background: #df1f1f;
+}
+.buttons > button:nth-child(2){
+    background: black;
+    color: white;
+    border-color: white;
+}
+.buttons > button:hover{
+    background: white;
+    border-color:white;
+    color: #df1f1f;
+}
+.buttons > button:nth-child(2):hover{
+    background: white;
+    color: black;
+}
+
+/* second section  */
+.boxes{
+    position: absolute;
+    bottom:-760px;
+}
+.box{
+    background: white;
+    height: 460px;
+    position: relative;
+}
+.box > p{
+    font-size: 15px;
+}
+.button-box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #df1f1f;
+    border-color: #df1f1f;
+}
+.button-box:hover{
+    background: #353535;
+    border-color: #353535;
+}
+
+/* goals  */
+.goals{
+    margin-top: 500px;
+}
+.phrase > img{
+    border-bottom: 5px solid red;
+}
+
+.our-goals > h5::after{
+    content: "";
+    position: absolute;
+    bottom: 50%;
+    left: 120px;
+    right: 270px;
+    border-bottom: 3px solid #df1f1f;
+}
+
+/* experience  */
+.experience{
+    margin-top: 170px;
+    background: #f8f8f8;
+}
+/* team  */
+.team{
+    margin-top: 170px;
+}
+.title::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 530px;
+    right: 540px;
+    border-bottom: 3px solid #df1f1f;
+}
+
+/* studies  */
+.studies{
+    margin-top: 170px;
+}
+.box{
+    height: 420px;
+    background: #f8f8f8;
+    border-bottom: 5px solid #e6e6e6;
+}
+.button-box-posts{
+    background: #df1f1f;
+    border-color: #df1f1f;
+    border-radius: 10px;
+}
+.button-box-posts:hover{
+    background: #353535;
+    border-color: #353535;
+}
+.box-posts{
+    height: 200px;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    color: #11b611;
+}
+
+/* footer  */
+footer{
+    margin-top: 170px;
+}
+.color{
+    color: #7d9292;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
