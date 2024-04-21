@@ -67,7 +67,7 @@ nav >a:hover{
 /* second section  */
 .boxes{
     position: absolute;
-    bottom:-760px;
+    bottom:-840px;
 }
 .box{
     background: white;
@@ -75,7 +75,7 @@ nav >a:hover{
     position: relative;
 }
 .box > p{
-    font-size: 15px;
+    font-size: 13px;
 }
 .button-box{
     position: absolute;
@@ -163,4 +163,13 @@ footer{
 }
 a:hover{
     color: white;
+}
+
+/*breackpoints */
+@media screen and (max-width: 900px) and (min-width: 700px) {
+    .boxes {
+        position: absolute;
+        bottom: -1120px;
+        border: 2px solid red;
+    }
 }
